@@ -150,6 +150,7 @@ grpc_cc_library(
     external_deps = [
         "absl/base:core_headers",
         "absl/functional:any_invocable",
+        "absl/functional:function_ref",
         "absl/log",
         "absl/strings",
         "absl/types:optional",
@@ -8038,6 +8039,7 @@ grpc_cc_library(
         "grpc_promise_endpoint",
         "if",
         "inter_activity_pipe",
+        "latent_see",
         "loop",
         "map",
         "memory_quota",
