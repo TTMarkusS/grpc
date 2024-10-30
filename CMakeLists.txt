@@ -3709,6 +3709,7 @@ target_include_directories(upb_json_lib
 )
 target_link_libraries(upb_json_lib
   ${_gRPC_ALLTARGETS_LIBRARIES}
+  grpc++_unsecure
   upb_mini_descriptor_lib
   upb_wire_lib
 )
@@ -3964,6 +3965,7 @@ target_include_directories(upb_textformat_lib
 )
 target_link_libraries(upb_textformat_lib
   ${_gRPC_ALLTARGETS_LIBRARIES}
+  grpc++_unsecure
   upb_mini_descriptor_lib
   upb_wire_lib
 )
